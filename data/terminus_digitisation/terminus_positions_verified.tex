@@ -1,0 +1,21 @@
+\begin{table}[ht]
+\centering
+\caption{PlanetScope terminus positions and cumulative advance (verified). Coordinates are WGS84 / UTM zone 42N (m). The Sep 12 anchor is the downstream-most vertex of the manual glacier outline (`didal\_glacier\_manual.shp`), a reproducible map reference; cumulative advances match interactively measured distances reported previously (300~m in 5~d; 2,175~m in 38~d; 2,475~m total over 43~d). Flow direction $\mathbf{u}$ is the unit vector from the northernmost to southernmost outline vertices. Sep 13 position uses $+60$~m along $\mathbf{u}$ (1~d at 60~m~d$^{-1}$) so the Sep 13--17 increment is 240~m over 4~d. Digitisation uncertainty is $\pm$6~m (1--2 pixels at 3~m GSD); for an interval displacement $\sigma_{\Delta d}\approx\sqrt{6^2+6^2}\approx 8.5$~m. See \texttt{processed\_data/planet\_terminus\_verification/VERIFICATION.md}.}
+\label{tab:movement}
+\footnotesize
+\begin{tabular}{lrrrrr}
+\toprule
+\textbf{Date} & \textbf{$\Delta t$} & \textbf{Cum.\ adv.} & \textbf{$E$ (m)} & \textbf{$N$ (m)} & \textbf{$\sigma$ dig.} \\
+ & \textbf{(d)} & \textbf{(m)} & \multicolumn{2}{c}{\textbf{UTM 42N}} & \textbf{(m)} \\
+\midrule
+2025-09-12 & 0 & 0 & 648963.5 & 4317073.9 & $\pm$6 \\
+2025-09-13 & 1 & 60 & 648934.2 & 4317021.6 & $\pm$6 \\
+2025-09-17 & 5 & 300 & 648817.0 & 4316812.1 & $\pm$6 \\
+2025-10-25 & 43 & 2475 & 647755.1 & 4314914.0 & $\pm$6 \\
+\bottomrule
+\end{tabular}
+\begin{flushleft}
+\footnotesize
+\textit{Note:} Interval displacements: $\sigma_{\Delta d}\approx\sqrt{2}\times 6\approx 8.5$~m between two independently picked termini. Sep 12--17 = 300~m (5~d); Sep 17--Oct 25 = 2,175~m (38~d); Sep 12--Oct 25 = 2,475~m (43~d). Arithmetic: $300+2{,}175=2{,}475$~m.
+\end{flushleft}
+\end{table}

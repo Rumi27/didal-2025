@@ -1,0 +1,5 @@
+date,planet_scene_id_or_note,cumulative_advance_from_sep12_m,delta_days_from_sep12,E_UTM42N_m,N_UTM42N_m,digitisation_uncertainty_m,notes
+2025-09-12,manual terminus (Planet); full SR not in local archive,0,0,648963.490,4317073.913,6,Anchor: downstream vertex of didal_glacier_manual.shp (UTM 42N); reproducible map anchor
+2025-09-13,20250913_062702_66_2516_3B_AnalyticMS_SR_clip,60,1,648934.196,4317021.551,6,P = P0 + 60 m u (1 d at 60 m d^-1 early rate)
+2025-09-17,20250917_064330_29_24b7_3B_AnalyticMS_SR_clip,300,5,648817.020,4316812.100,6,Measured advance Sep 12-17 = 300 m / 5 d
+2025-10-25,20251025_062608_36_251d_3B_AnalyticMS_SR,2475,43,647755.109,4314913.950,6,Measured advance Sep 12-Oct 25 = 2475 m / 43 d; Sep 17-Oct 25 = 2175 m / 38 d

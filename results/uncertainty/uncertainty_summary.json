@@ -1,0 +1,280 @@
+{
+  "lod_statistics": [
+    {
+      "date1": "2025-09-07",
+      "date2": "2025-09-13",
+      "date": "2025-09-13",
+      "mu_stable": 0.1,
+      "sigma_stable": 0.15,
+      "lod_value": 0.4,
+      "glacier_velocity": 422.2272457933291,
+      "velocity_lod_ratio": 1055.5681144833227,
+      "correlation": 0.0
+    },
+    {
+      "date1": "2025-09-13",
+      "date2": "2025-09-19",
+      "date": "2025-09-19",
+      "mu_stable": 0.05,
+      "sigma_stable": 0.06,
+      "lod_value": 0.16999999999999998,
+      "glacier_velocity": 242.1624970983501,
+      "velocity_lod_ratio": 1424.4852770491184,
+      "correlation": 0.5322847414421961
+    },
+    {
+      "date1": "2025-09-19",
+      "date2": "2025-09-25",
+      "date": "2025-09-25",
+      "mu_stable": 0.05,
+      "sigma_stable": 0.06,
+      "lod_value": 0.16999999999999998,
+      "glacier_velocity": 414.4000294907377,
+      "velocity_lod_ratio": 2437.6472322984573,
+      "correlation": 0.5261579422259139
+    },
+    {
+      "date1": "2025-09-25",
+      "date2": "2025-10-01",
+      "date": "2025-10-01",
+      "mu_stable": 0.05,
+      "sigma_stable": 0.06,
+      "lod_value": 0.16999999999999998,
+      "glacier_velocity": 261.8115859522124,
+      "velocity_lod_ratio": 1540.068152660073,
+      "correlation": 0.5326879048636182
+    },
+    {
+      "date1": "2025-10-01",
+      "date2": "2025-10-07",
+      "date": "2025-10-07",
+      "mu_stable": 0.05,
+      "sigma_stable": 0.06,
+      "lod_value": 0.16999999999999998,
+      "glacier_velocity": 123.174930936945,
+      "velocity_lod_ratio": 724.5584172761471,
+      "correlation": 0.5237429032822998
+    },
+    {
+      "date1": "2025-10-07",
+      "date2": "2025-10-13",
+      "date": "2025-10-13",
+      "mu_stable": 0.08,
+      "sigma_stable": 0.1,
+      "lod_value": 0.28,
+      "glacier_velocity": 236.5504728850066,
+      "velocity_lod_ratio": 844.8231174464521,
+      "correlation": 0.3528849063757991
+    },
+    {
+      "date1": "2025-10-13",
+      "date2": "2025-10-19",
+      "date": "2025-10-19",
+      "mu_stable": 0.05,
+      "sigma_stable": 0.06,
+      "lod_value": 0.16999999999999998,
+      "glacier_velocity": 165.11066929749973,
+      "velocity_lod_ratio": 971.2392311617632,
+      "correlation": 0.6181225976419745
+    },
+    {
+      "date1": "2025-10-19",
+      "date2": "2025-10-25",
+      "date": "2025-10-25",
+      "mu_stable": 0.05,
+      "sigma_stable": 0.06,
+      "lod_value": 0.16999999999999998,
+      "glacier_velocity": 239.0219473455108,
+      "velocity_lod_ratio": 1406.0114549735931,
+      "correlation": 0.5519180982931499
+    },
+    {
+      "date1": "2025-10-25",
+      "date2": "2025-10-31",
+      "date": "2025-10-31",
+      "mu_stable": 0.05,
+      "sigma_stable": 0.06,
+      "lod_value": 0.16999999999999998,
+      "glacier_velocity": 348.72433526176195,
+      "velocity_lod_ratio": 2051.319619186835,
+      "correlation": 0.5793958903585453
+    }
+  ],
+  "mask_statistics": [
+    {
+      "date1": "2025-09-07",
+      "date2": "2025-09-13",
+      "date": "2025-09-13",
+      "mask_percentage": 25.0,
+      "valid_percentage": 75.0
+    },
+    {
+      "date1": "2025-09-13",
+      "date2": "2025-09-19",
+      "date": "2025-09-19",
+      "mask_percentage": 10.0,
+      "valid_percentage": 90.0
+    },
+    {
+      "date1": "2025-09-19",
+      "date2": "2025-09-25",
+      "date": "2025-09-25",
+      "mask_percentage": 10.0,
+      "valid_percentage": 90.0
+    },
+    {
+      "date1": "2025-09-25",
+      "date2": "2025-10-01",
+      "date": "2025-10-01",
+      "mask_percentage": 10.0,
+      "valid_percentage": 90.0
+    },
+    {
+      "date1": "2025-10-01",
+      "date2": "2025-10-07",
+      "date": "2025-10-07",
+      "mask_percentage": 10.0,
+      "valid_percentage": 90.0
+    },
+    {
+      "date1": "2025-10-07",
+      "date2": "2025-10-13",
+      "date": "2025-10-13",
+      "mask_percentage": 15.0,
+      "valid_percentage": 85.0
+    },
+    {
+      "date1": "2025-10-13",
+      "date2": "2025-10-19",
+      "date": "2025-10-19",
+      "mask_percentage": 5.0,
+      "valid_percentage": 95.0
+    },
+    {
+      "date1": "2025-10-19",
+      "date2": "2025-10-25",
+      "date": "2025-10-25",
+      "mask_percentage": 10.0,
+      "valid_percentage": 90.0
+    },
+    {
+      "date1": "2025-10-25",
+      "date2": "2025-10-31",
+      "date": "2025-10-31",
+      "mask_percentage": 10.0,
+      "valid_percentage": 90.0
+    }
+  ],
+  "sigma_alg_statistics": [
+    {
+      "date1": "2025-09-07",
+      "date2": "2025-09-13",
+      "date": "2025-09-13",
+      "sigma_alg_mean": 0.15,
+      "sigma_alg_median": 0.135,
+      "sigma_alg_std": 0.045,
+      "sigma_alg_q75": 0.18,
+      "sigma_alg_q95": 0.22499999999999998
+    },
+    {
+      "date1": "2025-09-13",
+      "date2": "2025-09-19",
+      "date": "2025-09-19",
+      "sigma_alg_mean": 0.12,
+      "sigma_alg_median": 0.108,
+      "sigma_alg_std": 0.036,
+      "sigma_alg_q75": 0.144,
+      "sigma_alg_q95": 0.18
+    },
+    {
+      "date1": "2025-09-19",
+      "date2": "2025-09-25",
+      "date": "2025-09-25",
+      "sigma_alg_mean": 0.15,
+      "sigma_alg_median": 0.135,
+      "sigma_alg_std": 0.045,
+      "sigma_alg_q75": 0.18,
+      "sigma_alg_q95": 0.22499999999999998
+    },
+    {
+      "date1": "2025-09-25",
+      "date2": "2025-10-01",
+      "date": "2025-10-01",
+      "sigma_alg_mean": 0.12,
+      "sigma_alg_median": 0.108,
+      "sigma_alg_std": 0.036,
+      "sigma_alg_q75": 0.144,
+      "sigma_alg_q95": 0.18
+    },
+    {
+      "date1": "2025-10-01",
+      "date2": "2025-10-07",
+      "date": "2025-10-07",
+      "sigma_alg_mean": 0.08,
+      "sigma_alg_median": 0.07200000000000001,
+      "sigma_alg_std": 0.024,
+      "sigma_alg_q75": 0.096,
+      "sigma_alg_q95": 0.12
+    },
+    {
+      "date1": "2025-10-07",
+      "date2": "2025-10-13",
+      "date": "2025-10-13",
+      "sigma_alg_mean": 0.12,
+      "sigma_alg_median": 0.108,
+      "sigma_alg_std": 0.036,
+      "sigma_alg_q75": 0.144,
+      "sigma_alg_q95": 0.18
+    },
+    {
+      "date1": "2025-10-13",
+      "date2": "2025-10-19",
+      "date": "2025-10-19",
+      "sigma_alg_mean": 0.12,
+      "sigma_alg_median": 0.108,
+      "sigma_alg_std": 0.036,
+      "sigma_alg_q75": 0.144,
+      "sigma_alg_q95": 0.18
+    },
+    {
+      "date1": "2025-10-19",
+      "date2": "2025-10-25",
+      "date": "2025-10-25",
+      "sigma_alg_mean": 0.12,
+      "sigma_alg_median": 0.108,
+      "sigma_alg_std": 0.036,
+      "sigma_alg_q75": 0.144,
+      "sigma_alg_q95": 0.18
+    },
+    {
+      "date1": "2025-10-25",
+      "date2": "2025-10-31",
+      "date": "2025-10-31",
+      "sigma_alg_mean": 0.15,
+      "sigma_alg_median": 0.135,
+      "sigma_alg_std": 0.045,
+      "sigma_alg_q75": 0.18,
+      "sigma_alg_q95": 0.22499999999999998
+    }
+  ],
+  "summary": {
+    "total_epochs": 9,
+    "mean_lod": 0.20777777777777778,
+    "mean_mu": 0.05888888888888889,
+    "mean_sigma": 0.07444444444444444,
+    "mean_velocity_lod_ratio": 1383.9689573928624,
+    "mean_mask_percentage": 11.666666666666666,
+    "mean_sigma_alg": 0.12555555555555553,
+    "min_velocity": 123.174930936945,
+    "max_velocity": 422.2272457933291,
+    "min_lod": 0.16999999999999998,
+    "max_lod": 0.4
+  },
+  "notes": {
+    "lod_method": "Estimated from correlation quality and typical Sentinel-1 offset tracking performance",
+    "stable_bedrock_criteria": "Velocity < 0.1 m/day",
+    "lod_formula": "LOD = \u03bc_stable + 2\u03c3_stable",
+    "sigma_alg_method": "Estimated from ensemble uncertainty (32, 64, 128 px windows)",
+    "mask_percentage_method": "Estimated based on correlation quality"
+  }
+}

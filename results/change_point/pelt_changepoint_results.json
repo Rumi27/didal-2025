@@ -1,0 +1,102 @@
+{
+  "optimal_penalty": {
+    "by_bic": {
+      "penalty": 1.0,
+      "bic": 84.64360039934455,
+      "n_changepoints": 0,
+      "changepoint_dates": []
+    },
+    "by_mbic": {
+      "penalty": 1.0,
+      "mbic": 89.038049554017,
+      "n_changepoints": 0,
+      "changepoint_dates": []
+    }
+  },
+  "crops": {
+    "n_changepoints": 0,
+    "penalty_range": [
+      1.0,
+      100.0
+    ]
+  },
+  "peak_velocity": {
+    "date": "2025-09-13",
+    "velocity": 422.2272457933291
+  },
+  "deceleration_rates": [
+    {
+      "segment_start": "2025-09-19",
+      "segment_end": "2025-10-31",
+      "duration_days": 42,
+      "v_start": 242.1624970983501,
+      "v_end": 348.72433526176195,
+      "deceleration_rate": 2.5371866229383775,
+      "deceleration_rate_uncertainty": 0.0043773276930595805
+    }
+  ],
+  "penalty_sensitivity": [
+    {
+      "penalty": 1,
+      "n_changepoints": 0,
+      "bic": 84.64360039934455,
+      "mbic": 89.038049554017
+    },
+    {
+      "penalty": 2,
+      "n_changepoints": 0,
+      "bic": 84.64360039934455,
+      "mbic": 89.038049554017
+    },
+    {
+      "penalty": 3,
+      "n_changepoints": 0,
+      "bic": 84.64360039934455,
+      "mbic": 89.038049554017
+    },
+    {
+      "penalty": 4,
+      "n_changepoints": 0,
+      "bic": 84.64360039934455,
+      "mbic": 89.038049554017
+    },
+    {
+      "penalty": 5,
+      "n_changepoints": 0,
+      "bic": 84.64360039934455,
+      "mbic": 89.038049554017
+    },
+    {
+      "penalty": 10,
+      "n_changepoints": 0,
+      "bic": 84.64360039934455,
+      "mbic": 89.038049554017
+    },
+    {
+      "penalty": 20,
+      "n_changepoints": 0,
+      "bic": 84.64360039934455,
+      "mbic": 89.038049554017
+    },
+    {
+      "penalty": 50,
+      "n_changepoints": 0,
+      "bic": 84.64360039934455,
+      "mbic": 89.038049554017
+    },
+    {
+      "penalty": 100,
+      "n_changepoints": 0,
+      "bic": 84.64360039934455,
+      "mbic": 89.038049554017
+    }
+  ],
+  "irregular_sampling": {
+    "all_intervals_equal": true,
+    "mean_interval_days": 6.0,
+    "interval_range_days": [
+      6.0,
+      6.0
+    ]
+  }
+}

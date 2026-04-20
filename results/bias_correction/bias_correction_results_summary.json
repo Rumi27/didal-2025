@@ -1,0 +1,48 @@
+{
+  "temperature_correction": {
+    "method": "Terink et al. (2010)",
+    "reference_period": "2000-2019",
+    "calibration": {
+      "blocks": 73,
+      "block_length_days": 5,
+      "window_length_days": 65,
+      "min_valid_days_per_block": 10
+    },
+    "expected_results": {
+      "mean_bias_reduction": "Systematic cold bias reduced",
+      "variance_preservation": "Block-wise variance matched to observations",
+      "seasonal_cycle": "Preserved"
+    },
+    "note": "Exact statistics depend on actual data - need to run analysis"
+  },
+  "precipitation_correction": {
+    "method": "Monthly mean scaling",
+    "reference_period": "2000-2019",
+    "calibration": {
+      "min_wet_days_per_month": 3,
+      "scaling_factor": "s_m = \u03bc_obs / \u03bc_ERA for each month"
+    },
+    "known_results": {
+      "wet_day_mean_bias": {
+        "before": -1.62,
+        "after": -0.24,
+        "unit": "mm",
+        "improvement_percent": 85.2
+      },
+      "note": "Daily timing may not match observations"
+    }
+  },
+  "what_to_report": {
+    "temperature": [
+      "Mean bias before/after correction (\u00b0C)",
+      "RMSE before/after correction (\u00b0C)",
+      "Correlation with observations",
+      "Improvement percentage"
+    ],
+    "precipitation": [
+      "Monthly mean bias before/after (mm/month)",
+      "Wet-day mean bias: -1.62 mm \u2192 -0.24 mm (85% improvement)",
+      "Note on daily timing limitations"
+    ]
+  }
+}
