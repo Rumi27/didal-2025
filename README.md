@@ -5,8 +5,10 @@ This repository contains all data, processing scripts, and analysis code accompa
 > **"SAR monitoring limits in narrow valley glaciers: rapid motion at Didal Glacier, Tajikistan"**
 > *Journal of Glaciology* — **under review**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19657576.svg)](https://doi.org/10.5281/zenodo.19657576)
+
 > This repository is made available ahead of acceptance to support the review process.
-> The Zenodo DOI and full citation will be added upon acceptance.
+> The full journal citation will be updated upon acceptance.
 
 ---
 
@@ -112,8 +114,9 @@ In the meantime, if you use this data or code, please cite this repository direc
   author    = {[Authors]},
   title     = {SAR monitoring limits in narrow valley glaciers: rapid motion at Didal Glacier, Tajikistan — data and code repository},
   year      = {2025},
-  publisher = {GitHub},
-  url       = {https://github.com/Rumi27/didal-2025}
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.19657576},
+  url       = {https://doi.org/10.5281/zenodo.19657576}
 }
 ```
 
